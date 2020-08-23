@@ -1,0 +1,98 @@
+*{
+	margin: 0px
+	padding:0px;
+}
+html{scroll-behavior: smooth;}
+
+ .Investment {display: none; list-style-type: none; margin-left: -15px;}
+
+.Investment li { margin-top: 30px; text-align: center; font-weight: bolder; font-size: 25px; padding: 0px; }
+ .row-one div:hover .Investment { display: block; position: absolute; height: 70px;  
+ 	background: #D63031; z-index: 9999;}
+
+
+ .loan-loan {display: none; list-style-type: none; margin-left: -15px;}
+
+.loan-loan li { margin-top: 30px; text-align: center; font-weight: bolder; font-size: 25px; padding: 0px; }
+ .row-one div:hover .loan-loan { display: block; position: absolute; height: 270px; 
+ 	background: #D63031; z-index: 9999;}
+
+
+.row-one {transition: all .8s;}
+.row-one div:hover {background: #b83369; color: #fff;}
+.row-one div:hover span { color: #fff;}
+
+.collapse {display: none; list-style-type: none; margin-left: -15px;}
+
+.collapse li { margin-top: 30px; text-align: center; font-weight: bolder; font-size: 25px; padding: 0px; }
+ .row-one div:hover .collapse { display: block; position: absolute;  background: #D63031; z-index: 9999;  }
+
+
+ .Account-open {display: none; list-style-type: none; margin-left: -15px;}
+
+.Account-open li { margin-top: 30px; text-align: center; font-weight: bolder; font-size: 25px; padding: 0px; }
+
+ .row-one div:hover .Account-open { display: block; position: absolute; height: 150px; width: 225px; 
+ 	background: #D63031; z-index: 9999;}
+
+
+@keyframes digital{
+
+	0%{color: #AE1438;}
+	50%{color: :#AE1438;}
+	70%{color:#192A56}
+	100% {color: #0A79DF;}
+}
+
+
+
+
+.IM-1:hover{ background: #b83369; color: #fff; cursor: pointer; }
+.IM-2:hover{ background: #b83369; color: #fff;  cursor: pointer;}
+.IM-3:hover{ background: #b83369; color: #fff; cursor: pointer; }
+.IM-4:hover{ background: #b83369; color: #fff; cursor: pointer; }
+.IM-1:hover h5{ border: 2px solid #FF362E; background: #FF362E;  }
+.IM-2:hover h5{ border: 2px solid #FF362E; background: #FF362E;  }
+.IM-3:hover h5{ border: 2px solid #FF362E; background: #FF362E;  }
+.IM-4:hover h5{ border: 2px solid #FF362E; background: #FF362E;  }
+
+
+ 
+@media(max-width: 576px){
+
+table tr td figure img{ width: 90px!important; height: 90px!important; }
+
+figcaption{ color: #000 ;font-weight:lighter; }
+
+}
+
+@media(min-width:  577px) and (max-width: 768px){
+
+table tr td figure img{ width: 120px!important; height: 120px!important; }
+
+figcaption{ color: #000!important ;font-weight:lighter; }
+
+}
+
+
+@media(min-width:  769px) and (max-width: 992px){
+
+table tr td figure img{ width: 135px!important; height: 135px!important; }
+
+figcaption{ color: #000!important ;font-weight:lighter; }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+
+*{
+
+	margin: 0px;
+	padding: 0px;
+}
+
+.col { display: none; list-style-type: none; margin-left: -15px;}
+.col li { margin-top: 30px; text-align: center; font-weight: bolder; font-size: 25px; padding: 0px; }
+ .colapse:hover .col { display: block; position: absolute; background: #D63031; z-index: 9999;  }
+
+
+
+
+@media (max-width: 576px){
+
+.wrapper img {transform: translate(100px , 200px)!important;}}
+
+
+
+@media (min-width: 577px) and (max-width: 768px )
+{
+
+.wrapper img {transform: translate(200px , 150px)!important;}}
+
+
+@media (min-width: 769px) and (max-width:992px )
+{
+
+.wrapper img {transform: translate(200px , 250px)!important;}}
